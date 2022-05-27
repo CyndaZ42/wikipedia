@@ -11,6 +11,12 @@ body {
   height: 1980px;
 }
 
+img .left-menu {
+  margin-top: 3px;
+  padding-left: 21px;
+  float: left;
+}
+
 .left-menu ul {
   color: #0645AD;
   line-height: 19.5px;
@@ -63,19 +69,31 @@ body {
   background-color: #f5faff;
 }
 
-.topic-box {
-  background-color: rgba(136, 136, 136, 0.033);
-  margin: 8.4px;
-  margin-bottom: 6px;
-  border: solid;
-  border-width: thin;
-  border-color: rgba(134, 134, 134, 0.41);
+.blue, .green, .topic-box {
   padding-left: 6.72px;
   -ms-flex: 0 0 98%;
   flex: 0 0 98%;
   max-width: 98%;
 }
 
+.green .topic-box {
+  background-color: #cef2e0;
+  border-color: #f5fffa;
+}
+
+.blue .topic-box {
+  background-color: #cedff2;
+  border-color: #a3b0bf;
+}
+
+.topic-box {
+  background-color: rgba(136, 136, 136, 0.033);
+  margin: 8.4px;
+  margin-bottom: 6px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(134, 134, 134, 0.41);
+}
 
 .left-menu img {
   margin-bottom: 27px;
